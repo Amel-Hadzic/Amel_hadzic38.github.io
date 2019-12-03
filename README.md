@@ -1,77 +1,87 @@
 # Amel_hadzic38.github.io
-Project website
-
+Project event-invinte
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+    <title>Poziv na Marshmello event!</title>
         <style>
-    .dobarcovjek{
-     
-        color:rgb(57, 145, 148);
-      
-    }   
-        
-        h1{
-        background-color:rgb(57, 145, 148);
-        color:rgb(224, 217, 217);
-        font-family:cursive;
-        font-size:50px;
-    }
-            
-          h3{
-          
-        color:rgb(57, 145, 148);
-        font-family:cursive;
-        
-    }
-      ul{
-        
-        color:rgb(57, 145, 148);
-        font-family:fantasy;
-        
-    }
-       h2{
-        background-color:rgb(57, 145, 148);
-        color:rgb(224, 217, 217);
-        font-family:cursive;
-        font-size:21px;
-    }
-      h6{
-     
-        color:rgb(57, 145, 148);
-        font-family:cursive;
+    h1{
+       background-color:rgb(57, 145, 148);
+       color: rgb(192,192,192);
+       text-align: center;
        
+
     }
+
+    h2{
+        color: rgb(57, 145, 148);
+        border: 2px dashed rgb(161, 161, 161);
+        text-align: center;
+
+
+    }
+    
+    #OpetTi{
+
+        background-color:rgb(57, 145, 148);
+    
+    }
+
+    p{
+        text-align: center;
+    }
+    
+   .dobro{
+
+    text-align: center;
+
+   }
+
+   .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+
+   .stipe{
+
+    text-align: center;
+   }
         </style>
     </head>
     <body>
         
-        <h1>Amelov blog</h1>
+        <h1>Pozivnica </h1>
+        <h2><en>Na Marshmello event</en></h2>
+        
+        <p>Postovani gospoine pozicvamo vas na Marshmello event u 21h u Pleasant Parkuw. Razlozio da dodjete su ovdje:</p>
+        
+            <li class="dobro">Dobra muzika</li>
+            <img  src="dobramuzika.jpg" width="250" alt="dobramuzika" class="center">
 
-        <h3>Sadrzaj</h3>
-        <ul>
-            <li><a href="#stoovocitas">HTML,CSS osnove</a></li>
-            <li><a href="#moze5">Linkovi,tablice</a></li>
-        </ul>
         
-        <h2 id="stoovocitas">Prvi projekt</h2>
         
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hippopx.com%2Fhr%2Fparis-france-eiffel-tower-night-night-paris-city-megalopolis-21688&psig=AOvVaw00AMuoexbzJi3-4wGv_A-D&ust=1573411241602000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiSuOfj3eUCFQAAAAAdAAAAABAE" width="250">
+            <li class="dobro">Besplatno pice</li>
+            <img  src="alkohol.jpg" width="250"  class="center">
+      
+             <li class="dobro" ><strong>MEZA</strong></li>
+            <img  src="meza.jpg" width="250"  class="center">
        
-        <h6>Objavljeno : 23.9.2019</h6>
-        
-        <p>Cao svima.<br>Nakon par dana od pocetka nastave ovo je moj prvi projekt.<br>Nastavnik nam je zadao zadacu gdje smo trebali napraviti travel webpage.<br>Naucili smo vec osnove i sa tim znanjem stvorio sam svoju prvu stranicu.<br>Ukratko napravio sam stranicu o Parizu.<br>Jedini problem je sto mi je trebalo oko 3 sata,ali isplatilo se.Dobio sam 5!!!!!!!!!!<br></p>
-      <p class="dobarcovjek"><em>Peace out see you next time</em></p>
-        <h2 id="moze5">Drugi projekt</h2>
-          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstrukovnatg.ba%2FStruke%2520i%2520zanimanja%2Fkuhar%2F&psig=AOvVaw0htWC7k0vhyrurmAqPlWmr&ust=1573411426071000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjj_b3k3eUCFQAAAAAdAAAAABAG" width="250">
+              <li class="dobro" >Suveniri</li>
+            <img  src="suvenir.jpg" width="250" class="center" >
        
-        <h6>Objavljeno : 18.10.2019</h6>
-        
-        <p>Pozz.<br>Ponovo sam dobio zadatak da napravim stranicu,ali ne bilo kakvu.<br>Napravio sam kuharicu (─‿─).<br>Skoro sam postao kao kuhar iz <strong>Ratatui </strong>crtica.<br>Pokuso sam nac sto jednostavniji recept, ali sam zezno, naso sam malo duze neko sto sam trebao.<br>To bi bilo lako da nije bilo tablica sto mi je oduzelo previse vremena pa nisam mogo igrat CS:GO(bitni poslovi khmmm...).</p>
-        <p class="dobarcovjek"><em>Peace out see you never again</em></p>
-        <h2 >Amel hadzic</h2>
-        
-        
+            <li class="dobro" >Najdrazi DJ</li>
+            <img  src="najdrazi.jpg" width="250"  class="center">
+     
+
+        <h2>INFO</h2>
+       <div id=OpetTi>
+        <p><em>Maršmelo</em> elektronski je muzički producent i DJ.<br>
+             Prvi put je dobio međunarodno priznanje remiksom pjesama Džek jua i Zeda,<br>
+              a kasnije je surađivao sa umjetnicima kao što su Omar Links, Ookej, Džauz i Sluši.<br>
+             U januaru 2017. godine, njegova pjesma Alone je dospjela na bilbord hot 100 listu.<br>
+             Njegovo ime je <strong>Christopher Comstock </strong></p>
+            </div> 
     </body>
 </html>
